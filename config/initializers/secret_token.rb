@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Ticketee::Application.config.secret_key_base = 'f9ce2447728ef94f334311e11438b7b8ce976b1facd2929855e4285ec305de3775eec69440f4629b8a15ab2097dc9130a8e959868be4e5c43f9f865ba0b049a8'
+Ticketee::Application.config.secret_key_base = '2ec2df59a52d2405353d9a4ea561fdd4d86ffda9b3191da327598d1561c331885daa2ae3d9105cfc2ad8a0f26b3c6cf435ce9d6bacfe82a09332661138dc1ddb'
