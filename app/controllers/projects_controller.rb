@@ -4,7 +4,9 @@ class ProjectsController < ApplicationController
 
   def new
 
-    @project = Project.new
+    #@project = Project.new
+    @project = Project.new(params[:project])
+    @project.save
   end
 
 
