@@ -2,7 +2,7 @@ require 'spec_helper'
 feature 'Creating Projects' do
   before do
     visit '/'
-    click_link 'New Project'
+    click_link 'TextMate 2'
   end
   scenario "can create a project" do
     fill_in 'Name', with: 'TextMate 2'

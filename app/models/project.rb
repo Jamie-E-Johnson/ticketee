@@ -1,4 +1,4 @@
 class Project < ActiveRecord::Base
 
-  validates :name, presence: true
+  validates :name, :description, presence: true
 end
